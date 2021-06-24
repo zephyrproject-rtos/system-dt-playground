@@ -1,0 +1,15 @@
+/*
+ * Common nodes shared by Arm v8-M private peripheral buses (PPBs).
+ */
+
+interrupt-controller@e000e100  {
+	compatible = "arm,v8m-nvic";
+	reg = <0xe000e100 0xc00>;
+	interrupt-controller;
+	#interrupt-cells = <2>;
+};
+
+timer@e000e010 {
+	compatible = "arm,armv8m-systick";
+	reg = <0xe000e010 0x10>;
+};
