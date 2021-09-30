@@ -21,4 +21,7 @@
 #define I2C_BITRATE_HIGH	3400000	/* 3.4 Mbit/s */
 #define I2C_BITRATE_ULTRA	5000000 /* 5 Mbit/s */
 
+#define ARMV8M_S_FLAG	0x1
+#define ARMV8M_NS_FLAG	0x2
+
 #endif
